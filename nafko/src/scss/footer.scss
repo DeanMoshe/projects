@@ -1,0 +1,124 @@
+//====================================================================================================
+.footer {
+	background-color: #09283A;
+
+	// .footer__container
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+
+		@media (max-width: $tablet) {
+				flex-direction: column-reverse;
+		}
+	}
+
+	// .footer__copyright
+
+	&__copyright {
+	}
+
+	// .footer__contact
+
+	&__contact {
+		padding: 32px 0 0 0;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+	}
+
+	// .footer__social
+
+	&__social {
+		padding: 32px 0 0 0;
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		color: #A0A0A0;
+	}
+}
+
+.copyright {
+
+	// .copyright__logo
+
+	&__logo {
+		padding: 32px 0 37px 0;
+	}
+
+	// .copyright__text
+
+	&__text {
+		padding: 0 0 32px 0;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 123.4%;
+	}
+}
+
+.contact {
+
+	// .contact__header
+
+	&__header {
+		padding: 0 0 16px 0;
+		font-weight: 500;
+		line-height: 21px;
+	}
+
+	// .contact__phone
+
+	&__phone {
+		padding: 0 0 16px 0;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 23px;
+		color: #EEAC49;
+	}
+
+	// .contact__address
+
+	&__address {
+		padding: 0 0 16px 0;
+	}
+
+	// .contact__email
+
+	&__email {}
+}
+
+.social {
+
+	// .social__header
+
+	&__header {
+		padding: 0 0 15px 0;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		color: #ffffff;
+	}
+
+	// .social__icons
+
+	&__icons {
+		padding: 0 0 37px 0;
+	}
+
+	// .social__policy
+
+	&__policy {
+		padding: 0 0 12px 0;
+	}
+
+	// .social__offer
+
+	&__offer {}
+}
+//====================================================================================================

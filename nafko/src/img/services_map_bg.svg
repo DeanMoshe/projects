@@ -1,0 +1,24 @@
+<svg width="834" height="290" viewBox="0 0 834 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="25.5" y1="112" x2="25.5" y2="165" stroke="#EEAC49"/>
+<line x1="8" y1="164.5" x2="25" y2="164.5" stroke="#EEAC49"/>
+<circle r="4" transform="matrix(-1 0 0 1 4 165)" fill="#EEAC49"/>
+<line x1="67.5" y1="136" x2="67.5" y2="286" stroke="#EEAC49"/>
+<line x1="68" y1="286.5" x2="53" y2="286.5" stroke="#EEAC49"/>
+<circle r="4" transform="matrix(-1 0 0 1 49 286)" fill="#EEAC49"/>
+<circle r="4" transform="matrix(-1 0 0 1 350 149)" fill="#EEAC49"/>
+<line x1="190" y1="69.5" x2="350" y2="69.5" stroke="#EEAC49"/>
+<line x1="349.5" y1="146" x2="349.5" y2="70" stroke="#EEAC49"/>
+<line x1="190" y1="48.5" x2="484" y2="48.5" stroke="#EEAC49"/>
+<circle r="4" transform="matrix(-1 0 0 1 629 239)" fill="#EEAC49"/>
+<line x1="484" y1="238.5" x2="625" y2="238.5" stroke="#EEAC49"/>
+<line x1="483.5" y1="239" x2="483.5" y2="48" stroke="#EEAC49"/>
+<line x1="296" y1="0.5" x2="831" y2="0.500047" stroke="#EEAC49"/>
+<circle r="4" transform="matrix(-1 0 0 1 830 127)" fill="#EEAC49"/>
+<line x1="830.5" y1="127" x2="830.5" y2="1" stroke="#EEAC49"/>
+<line y1="-0.5" x2="150" y2="-0.5" transform="matrix(-4.37114e-08 1 1 4.37114e-08 129 136)" stroke="#EEAC49"/>
+<line y1="-0.5" x2="15" y2="-0.5" transform="matrix(1 -8.74228e-08 -8.74228e-08 -1 128 286)" stroke="#EEAC49"/>
+<circle cx="147" cy="286" r="4" fill="#EEAC49"/>
+<line x1="258" y1="25.5" x2="657" y2="25.5" stroke="#EEAC49"/>
+<circle r="4" transform="matrix(-1 0 0 1 656 77)" fill="#EEAC49"/>
+<line x1="656.5" y1="78" x2="656.5" y2="26" stroke="#EEAC49"/>
+</svg>
