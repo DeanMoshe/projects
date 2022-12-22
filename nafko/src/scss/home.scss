@@ -427,3 +427,81 @@
 		}
 	}
 }
+
+//====================================================================================================
+
+// Latest news
+
+.latestnews {
+
+	// .latestnews__container
+
+	&__container {}
+
+	// .latestnews__title
+
+	&__title {}
+
+	// .latestnews__newscontainer
+
+	&__newscontainer {}
+
+	// .latestnews__newsbox
+
+	&__newsbox {}
+
+	// .latestnews__text
+
+	&__text {}
+
+	// .latestnews__date
+
+	&__date {}
+
+	// .latestnews__btnwrapper
+
+	&__btnwrapper {}
+
+	// .latestnews__button
+
+	&__button {}
+}
+
+//====================================================================================================
+
+// Recommend
+
+.recommend {
+	padding: 80px 0 0 0;
+
+	// .recommend_img
+
+	&_img {}
+
+	// .recommend__container
+
+	&__container {}
+
+	// .recommend__title
+
+	&__title {
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 123.4%;
+		color: #09283A;
+	}
+
+	// .recommend__companies
+
+	&__companies {
+		padding: 32px 0 48px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	// .recommend__logo
+
+	&__logo {}
+}
+
