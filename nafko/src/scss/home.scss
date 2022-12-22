@@ -1,6 +1,7 @@
 //====================================================================================================
 
 .wrapper {
+	overflow:hidden;
 	max-width: 1440px;
 	margin: 0 auto;
 	background-image: url(@img/main_bg.svg);
@@ -14,7 +15,7 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 3.65em;
 	line-height: 70px;
 	color: #FFFFFF;
 }
@@ -231,41 +232,143 @@
 .services {
 	padding: 86px 0 0 0;
 
-	// .services__headerbg
-
-	&__headerbg {
-		margin: 80px 0 0 0;
-		width: 800px;
-		height: 286px;
-		background-color: #09283A;
-	}
-
 	// .services__container
 
-	&__container {}
-
-	// .services__header
-
-	&__header {}
+	&__container {
+		height: 845px;
+	}
 
 	// .services__description
 
-	&__description {}
+	&__description {
+		margin: 80px 0 80px 0;
+		position: relative;
+		height: 286px;
+		
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: -165px;
+			width: 800px;
+			height: 286px;
+			background-color: #09283A;
+		}
+	}
+
+	// .services__header
+
+	&__header {
+		position: absolute;
+		top: 80px;
+		max-width: 572px;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 42px;
+	}
+
+	// .services__text
+
+	&__text {
+		position: absolute;
+		right: 0;
+		top: 103px;
+		max-width: 400px;
+		height: 80px;
+		color: #797979;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 122.69%;
+	}
 
 	// .services__map
 
-	&__map {}
+	&__map {
+		position: relative;
+		height: 400px;
+		background-image: url(@img/services_map_bg.svg);
+		background-size:  834px 290px;
+		background-repeat: no-repeat;
+		background-position: top 10px right 140px;
+	}
+
+	// .services__accounting
+
+	&__accounting {
+		position: absolute;
+		left: 0px;
+		bottom: 205px;
+	}
+
+	// .services__legal
+
+	&__legal {
+		position: absolute;
+		left: 35px;
+		bottom: 85px;
+	}
+
+	// .services__stateauthorities
+
+	&__stateauthorities {
+		position: absolute;
+		left: 300px;
+		bottom: 85px;
+	}
+
+	// .services__tax
+
+	&__tax {
+		position: absolute;
+		left: 430px;
+		bottom: 185px;
+	}
+
+	// .services__dispute
+
+	&__dispute {
+		position: absolute;
+		right: 165px;
+		bottom: 130px;
+	}
+
+	// .services__bankruptcy
+
+	&__bankruptcy {
+		position: absolute;
+		right: 210px;
+		top: 100px;
+	}
+
+	// .services__duediligence
+
+	&__duediligence {
+		position: absolute;
+		left: 0px;
+		bottom: 205px;
+	}
 }
 
 .map {
 
 	// .map__title
 
-	&__title {}
+	&__title {
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 38px;
+		color: #09283A;
+	}
 
 	// .map__service
 
-	&__service {}
+	&__service {
+		width: 165px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 23px;
+		color: #09283A;
+	}
 }
 
 //====================================================================================================
