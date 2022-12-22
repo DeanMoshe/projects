@@ -540,6 +540,110 @@
 
 //====================================================================================================
 
+// Why Us
+
+.whyus {
+
+	// .whyus__container
+
+	&__container {
+		padding: 80px 0 0 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	// .whyus__title
+
+	&__title {
+		width: 380px;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 123.4%;
+		color: #09283A;
+	}
+
+	// .whyus__infoblock
+
+	&__infoblock {
+		height: 205px;
+	}
+
+	// .whyus__infoblock--1
+
+	&__infoblock--1 {
+		background: #A0C0FF;
+		width: 285px;
+	}
+
+	// .whyus__header
+
+	&__header {
+		padding: 32px 0 0 32px;
+		font-weight: 700;
+		font-size: 64px;
+		line-height: 123.4%;
+	}
+
+	// .whyus__text
+
+	&__text {
+		padding: 32px 0 0 32px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 123.4%;
+	}
+
+	// .whyus__infoblock--2
+
+	&__infoblock--2 {
+		background: #76A5FF;
+		width: 445px;
+
+		&>.whyus__header {
+				font-weight: 700;
+				font-size: 48px;
+				line-height: 123.4%;
+			}
+	}
+
+	// .whyus__spacer
+
+	&__spacer {
+		width: 95px;
+		height: 205px;
+	}
+
+	// .whyus__infoblock--3
+
+	&__infoblock--3 {
+		width: 285px;
+		background: #6D9FEA;
+	}
+
+	// .whyus__infoblock--4
+
+	&__infoblock--4 {
+		background: #5981CE;
+		width: 285px;
+	}
+
+	// .whyus__infoblock--5
+
+	&__infoblock--5 {
+		background: #1052B4;
+		width: 445px;
+
+		& > .whyus__header {
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 123.4%;
+		}
+	}
+}
+
+//====================================================================================================
+
 // Recommend
 
 .recommend {
