@@ -290,12 +290,22 @@
 		background-position: top 10px right 130px;
 	}
 
+	// .services__link
+
+	&__link {
+		&:hover {
+			@media (min-width: $tablet) {
+				color: #EEAC49;
+			}
+		}
+	}
+
 	// .services__accounting
 
 	&__accounting {
 		position: absolute;
 		left: 0px;
-		bottom: 205px;
+		bottom: 208px;
 	}
 
 	// .services__legal
