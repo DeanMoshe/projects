@@ -289,7 +289,7 @@
 		background-image: url(@img/services_map_bg.svg);
 		background-size:  834px 290px;
 		background-repeat: no-repeat;
-		background-position: top 10px right 140px;
+		background-position: top 10px right 130px;
 	}
 
 	// .services__accounting
@@ -304,7 +304,7 @@
 
 	&__legal {
 		position: absolute;
-		left: 35px;
+		left: 50px;
 		bottom: 85px;
 	}
 
@@ -312,7 +312,7 @@
 
 	&__stateauthorities {
 		position: absolute;
-		left: 300px;
+		left: 310px;
 		bottom: 85px;
 	}
 
@@ -320,7 +320,7 @@
 
 	&__tax {
 		position: absolute;
-		left: 430px;
+		left: 440px;
 		bottom: 185px;
 	}
 
@@ -328,7 +328,7 @@
 
 	&__dispute {
 		position: absolute;
-		right: 165px;
+		right: 155px;
 		bottom: 130px;
 	}
 
@@ -336,7 +336,7 @@
 
 	&__bankruptcy {
 		position: absolute;
-		right: 210px;
+		right: 200px;
 		top: 100px;
 	}
 
@@ -344,8 +344,8 @@
 
 	&__duediligence {
 		position: absolute;
-		left: 0px;
-		bottom: 205px;
+		right: 25px;
+		top: 155px;
 	}
 }
 
