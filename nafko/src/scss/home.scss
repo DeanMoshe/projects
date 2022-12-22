@@ -234,9 +234,7 @@
 
 	// .services__container
 
-	&__container {
-		height: 845px;
-	}
+	&__container {}
 
 	// .services__description
 
@@ -372,3 +370,60 @@
 }
 
 //====================================================================================================
+
+// Consult
+
+.consult {
+	background: #EBEBEB;
+	background-image: url(@img/consult_bg.svg);
+	background-repeat: no-repeat;
+
+	// .consult__container
+
+	&__container {
+		padding: 72px 0;
+	}
+
+	// .consult__title
+
+	&__title {
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 42px;
+		color: #09283A;
+	}
+
+	// .consult__text
+
+	&__text {
+		max-width: 417px;
+		padding: 20px 0 28px 0;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 119.19%;
+		color: #09283A;
+	}
+
+	// .consult__btnwrapper
+
+	&__btnwrapper {
+	}
+
+	// .consult__button
+
+	&__button {
+		width: 295px;
+		height: 55px;
+		background: #EEAC49;
+		box-shadow: 4px 4px 10px rgba(238, 172, 73, 0.58);
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 23px;
+
+		&:hover {
+			@media (min-width: $tablet) {
+					box-shadow: 5px 5px 15px rgba(238, 172, 73, 0.68);
+				}
+		}
+	}
+}
