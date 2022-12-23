@@ -115,7 +115,7 @@
 	&__news {
 		margin: 115px 0 0 0;
 		background-color: rgba(9, 40, 58, 0.8);
-		height: 187px;
+		//height: 187px;
 	}
 }
 
@@ -145,6 +145,11 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+
+		@media (max-width: $tablet) {
+			flex-direction: column;
+			flex-wrap: nowrap;
+		}
 	}
 
 	// .news__box
@@ -204,7 +209,13 @@
 
 	// .news__divider
 
-	&__divider {}
+	&__divider {
+		display: none;
+		
+		@media (min-width: $tablet) {
+			display: inline-block;
+		}
+	}
 
 	// .news__link
 
@@ -230,7 +241,10 @@
 // Services
 
 .services {
-	padding: 86px 0 0 0;
+	margin: 166px 0 0 0;
+	background-image: url(@img/services_map_bg.svg);
+	background-size: 1275px 662px;
+	background-repeat: no-repeat;
 
 	// .services__container
 
@@ -239,26 +253,29 @@
 	// .services__description
 
 	&__description {
-		margin: 80px 0 80px 0;
-		position: relative;
-		height: 286px;
-		
-		&::before {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: -165px;
-			width: 800px;
-			height: 286px;
-			background-color: #09283A;
-		}
+		display: flex;
+		justify-content: space-between;
+			// margin: 80px 0 80px 0;
+			// position: relative;
+			// height: 286px;
+			
+			// &::before {
+			// 	content: "";
+			// 	position: absolute;
+			// 	top: 0;
+			// 	left: -165px;
+			// 	width: 800px;
+			// 	height: 286px;
+			// 	background-color: #09283A;
+		//}
 	}
 
 	// .services__header
 
 	&__header {
-		position: absolute;
-		top: 80px;
+//		position: absolute;
+//		top: 80px;
+		margin: 80px 0 80px 0;
 		max-width: 572px;
 		font-weight: 500;
 		font-size: 36px;
@@ -268,11 +285,12 @@
 	// .services__text
 
 	&__text {
-		position: absolute;
-		right: 0;
-		top: 103px;
-		max-width: 400px;
-		height: 80px;
+//		position: absolute;
+//		right: 0;
+//		top: 103px;
+		margin: 89px 0 0 0;
+		width: 445px;
+		height: 108px;
 		color: #797979;
 		font-weight: 400;
 		font-size: 16px;
@@ -282,12 +300,11 @@
 	// .services__map
 
 	&__map {
+		margin: 80px 0 80px 0;
 		position: relative;
 		height: 400px;
-		background-image: url(@img/services_map_bg.svg);
-		background-size:  834px 290px;
-		background-repeat: no-repeat;
-		background-position: top 10px right 130px;
+		
+		//background-position: top 10px right 130px;
 	}
 
 	// .services__link
@@ -303,6 +320,7 @@
 	// .services__accounting
 
 	&__accounting {
+		//padding: 74px 0 0 0;
 		position: absolute;
 		left: 0px;
 		bottom: 208px;
@@ -311,6 +329,7 @@
 	// .services__legal
 
 	&__legal {
+		//padding: 197px 0 0 0;
 		position: absolute;
 		left: 50px;
 		bottom: 85px;
