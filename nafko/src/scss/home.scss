@@ -1,11 +1,20 @@
 //====================================================================================================
 
 .wrapper {
-	overflow:hidden;
+	background-color: #ffffff;
+	overflow: hidden;
 	max-width: 1440px;
 	margin: 0 auto;
+}
+
+.bg__wrapper {
+	max-width: 1440px;
+	padding: 0 0 86px 0;
 	background-image: url(@img/main_bg.svg);
 	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;
+	background-size: cover;
 	background-color: #ffffff;
 }
 
@@ -211,7 +220,7 @@
 
 	&__divider {
 		display: none;
-		
+
 		@media (min-width: $tablet) {
 			display: inline-block;
 		}
