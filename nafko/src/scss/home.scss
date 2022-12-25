@@ -819,8 +819,13 @@
 	&__companies {
 		padding: 32px 0 48px 0;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
+
+		@media (min-width:$mobile){
+			
+		};
 	}
 
 	// .recommend__logo
