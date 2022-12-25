@@ -15,7 +15,7 @@
 	background-position: top right;
 	background-attachment: fixed;
 	background-size: cover;
-	background-color: #ffffff;
+	background-color: #76A5FF;
 }
 
 .page {}
@@ -266,10 +266,13 @@
 // Services
 
 .services {
-	margin: 166px 0 0 0;
-	//background-image: url(@img/services_map_bg.svg);
-	background-size: 1275px 662px;
-	background-repeat: no-repeat;
+	margin: 86px 0 0 0;
+
+	@media (min-width: $tablet) {
+		background-image: url(@img/services_map_bg.svg);
+		background-size: 1150px 662px;
+		background-repeat: no-repeat;
+	}
 
 	// .services__container
 
@@ -304,9 +307,6 @@
 	// .services__text
 
 	&__text {
-//		position: absolute;
-//		right: 0;
-//		top: 103px;
 		border-bottom: 1px solid #797979;
 		margin: 89px 0 0 0;
 		width: 445px;
@@ -321,15 +321,22 @@
 
 	&__map {
 		margin: 80px 0 80px 0;
-		position: relative;
-		height: 400px;
-		
-		//background-position: top 10px right 130px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+		@media (min-width: $tablet) {
+			position: relative;
+			height: 400px;
+		}
 	}
 
 	// .services__link
 
 	&__link {
+
 		&:hover {
 			@media (min-width: $tablet) {
 				color: #EEAC49;
@@ -340,59 +347,78 @@
 	// .services__accounting
 
 	&__accounting {
-		//padding: 74px 0 0 0;
-		position: absolute;
-		left: 0px;
-		bottom: 208px;
+
+		@media (min-width: $tablet) {
+			position: absolute;
+			left: 0px;
+			bottom: 208px;
+		}
 	}
 
 	// .services__legal
 
 	&__legal {
-		//padding: 197px 0 0 0;
-		position: absolute;
-		left: 50px;
-		bottom: 85px;
+
+		@media (min-width: $tablet) {
+			position: absolute;
+			left: 50px;
+			bottom: 85px;
+		}
 	}
 
 	// .services__stateauthorities
 
 	&__stateauthorities {
-		position: absolute;
-		left: 310px;
-		bottom: 85px;
+
+		@media (min-width: $tablet) {
+			position: absolute;
+			left: 310px;
+			bottom: 85px;
+		}
 	}
 
 	// .services__tax
 
 	&__tax {
-		position: absolute;
-		left: 440px;
-		bottom: 185px;
+
+		@media (min-width: $tablet) {
+			position: absolute;
+			left: 440px;
+			bottom: 185px;
+		}
 	}
 
 	// .services__dispute
 
 	&__dispute {
-		position: absolute;
-		right: 155px;
-		bottom: 130px;
+
+		@media (min-width: $tablet) {
+			position: absolute;
+			right: 155px;
+			bottom: 130px;
+		}
 	}
 
 	// .services__bankruptcy
 
 	&__bankruptcy {
-		position: absolute;
-		right: 200px;
-		top: 100px;
+
+		@media (min-width: $tablet) {
+			position: absolute;
+			right: 200px;
+			top: 100px;
+		}
 	}
 
 	// .services__duediligence
 
 	&__duediligence {
-		position: absolute;
-		right: 25px;
-		top: 155px;
+
+		@media (min-width: $tablet) {
+			position: absolute;
+			right: 25px;
+			top: 155px;
+		}
 	}
 }
 
@@ -401,6 +427,8 @@
 	// .map__title
 
 	&__title {
+		align-self: flex-start;
+		text-align: left;
 		font-weight: 700;
 		font-size: 32px;
 		line-height: 38px;
@@ -410,6 +438,7 @@
 	// .map__service
 
 	&__service {
+		padding: 30px 0 0 0;
 		width: 165px;
 		font-weight: 500;
 		font-size: 20px;
@@ -424,10 +453,12 @@
 
 .consult {
 	background: #EBEBEB;
-	background-image: url(@img/consult_bg.svg);
-	background-repeat: no-repeat;
 
-	// .consult__container
+	@media (min-width: $mobile) {
+		background-image: url(@img/consult_bg.svg);
+		background-repeat: no-repeat;
+		background-position: top;
+	}
 
 	&__container {
 		padding: 72px 0;
@@ -456,6 +487,12 @@
 	// .consult__btnwrapper
 
 	&__btnwrapper {
+		width: 295px;
+		margin: 0 auto;
+
+		@media (min-width: $mobile) {
+			margin: 0;
+		}
 	}
 
 	// .consult__button
