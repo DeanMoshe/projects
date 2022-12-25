@@ -152,12 +152,15 @@
 
 	&__container {
 		display: flex;
+		flex-direction: column;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		align-items: center;
 
-		@media (max-width: $tablet) {
-			flex-direction: column;
-			flex-wrap: nowrap;
+		@media (min-width: $tablet) {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-between;
 		}
 	}
 
@@ -165,11 +168,24 @@
 
 	&__box {
 		width: 240px;
-		padding: 42px 0 52px 0;
-
+		padding: 42px 0 0 0;
+	
 		&:first-child {
-			padding: 31px 0 41px 0;
-		} 
+			padding: 31px 0 0 0;
+		}
+	
+		&:last-child {
+			padding: 42px 0 42px 0;
+		}
+
+		@media (min-width: $tablet) {
+			width: 240px;
+			padding: 42px 0 52px 0;
+		
+			&:first-child {
+				padding: 31px 0 41px 0;
+			}
+		}
 	}
 
 	// .news__header
@@ -219,10 +235,10 @@
 	// .news__divider
 
 	&__divider {
-		display: none;
+		transform: rotate(0.25turn);
 
 		@media (min-width: $tablet) {
-			display: inline-block;
+			transform: rotate(0);
 		}
 	}
 
@@ -251,7 +267,7 @@
 
 .services {
 	margin: 166px 0 0 0;
-	background-image: url(@img/services_map_bg.svg);
+	//background-image: url(@img/services_map_bg.svg);
 	background-size: 1275px 662px;
 	background-repeat: no-repeat;
 
@@ -263,32 +279,26 @@
 
 	&__description {
 		display: flex;
-		justify-content: space-between;
-			// margin: 80px 0 80px 0;
-			// position: relative;
-			// height: 286px;
-			
-			// &::before {
-			// 	content: "";
-			// 	position: absolute;
-			// 	top: 0;
-			// 	left: -165px;
-			// 	width: 800px;
-			// 	height: 286px;
-			// 	background-color: #09283A;
-		//}
+		flex-direction: column;
+
+		@media (min-width: $tablet) {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-between;
+		}
 	}
 
 	// .services__header
 
 	&__header {
-//		position: absolute;
-//		top: 80px;
-		margin: 80px 0 80px 0;
-		max-width: 572px;
+		margin: 0 0 0 -165px;
+		padding: 80px 63px 80px 165px;
+		max-width: 800px;
 		font-weight: 500;
 		font-size: 36px;
 		line-height: 42px;
+		background-color: #09283A;
 	}
 
 	// .services__text
@@ -297,6 +307,7 @@
 //		position: absolute;
 //		right: 0;
 //		top: 103px;
+		border-bottom: 1px solid #797979;
 		margin: 89px 0 0 0;
 		width: 445px;
 		height: 108px;
