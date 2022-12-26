@@ -5,20 +5,20 @@
 	})
 	<body>
 		<div class="wrapper">
-			<div class="bg__wrapper">
+			<div class="bg__wrapper" style="background-image: url(@img/main_bg.svg);">
 				@@include('html/_header.htm',{})
 				<main class="page">
 					<div class="cover">
 						<div class="cover__container">
 							<div class="cover__title title"><h1>«НАФКО»<br>юридические и бухгалтерские услуги для бизнеса</h1></div>
 							<div class="cover__button">
-								<button type="button" class="button__consult button">Бесплатная консультация<img class="button__arrowimg" src="@img/consul_btn_arrow.svg" alt="arrow"><img class="button__arrowimg img--hide" src="@img/consul_btn_arrow--hover.svg" alt="arrow"></button>
+								<button type="button" data-goto=".feedback" class="button__consult button">Бесплатная консультация<img class="button__arrowimg" src="@img/consul_btn_arrow.svg" alt="arrow"><img class="button__arrowimg img--hide" src="@img/consul_btn_arrow--hover.svg" alt="arrow"></button>
 							</div>
 							<div class="cover__businesses">
-								<a href="#" class="cover__link text">Для крупного бизнеса<img src="@img/maincoverlink_arrow.svg" alt="arrow" class="cover__linkarrow"><img src="@img/maincoverlink_arrow--hover.svg" alt="arrow" class="cover__linkarrow img--hide"></a>
+								<a href="bg_business.html" class="cover__link text">Для крупного бизнеса<img src="@img/maincoverlink_arrow.svg" alt="arrow" class="cover__linkarrow"><img src="@img/maincoverlink_arrow--hover.svg" alt="arrow" class="cover__linkarrow img--hide"></a>
 							</div>
 							<div class="cover__businesses">
-								<a href="#" class="cover__link text">Для среднего и малого бизнеса<img src="@img/maincoverlink_arrow.svg" alt="arrow" class="cover__linkarrow"><img src="@img/maincoverlink_arrow--hover.svg" alt="arrow" class="cover__linkarrow img--hide"></a>
+								<a href="sm_business.html" class="cover__link text">Для среднего и малого бизнеса<img src="@img/maincoverlink_arrow.svg" alt="arrow" class="cover__linkarrow"><img src="@img/maincoverlink_arrow--hover.svg" alt="arrow" class="cover__linkarrow img--hide"></a>
 							</div>
 						</div>
 						<div class="cover__news">
@@ -85,35 +85,52 @@
 							индивидуальное решение Вашей
 							задачи.</div>
 						<div class="consult__btnwrapper">
-							<button class="consult__button button">Получить консультацию</button>
+							<button class="consult__button button" data-goto=".feedback">Получить консультацию</button>
 						</div>
 					</div>
 				</div>
 				<div class="projects">
 					<div class="projects__container">
-						<div data-spollers class="spollers">
+						<div class="projects__header">Проекты</div>
+						<div data-spollers data-one-spoller class="spollers">
 							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Налоговая практика</button>
+								<button type="button" data-spoller class="spollers__title"><span class="spollers__number">01 </span>Налоговая практика</button>
+								<div class="spollers__body">
+									<div data-showmore="size" class="spoiler">
+										<div data-showmore-content="250" class="spoiler__content">
+											<li class="spoiler__text">Представление интересов энергосбытовой компании при обжаловании в судебном порядке результатов камеральной налоговой
+											проверки за 2011 г. Результатом реализации проекта стало признание доначислений налогового органа незаконными в полном
+											объеме.</li>
+											<li class="spoiler__text">Представление интересов ПАО «Мосэнергосбыт» при обжаловании в судебном порядке результатов выездной налоговой проверки.
+											В рамках данного спора впервые рассматривались претензии налогового органа к компании, финансирующей деятельность
+											фондов НИОКР, об учете для целей налогообложения прибыли такого рода расходов.</li>
+											<li class="spoiler__text">Участие в 2015-2016 гг. в реализации проекта по выявлению у энергетической компании налоговых резервов по налогу на
+											имущество (п. 11 ст. 381 НК РФ), в рамках которого подтверждено право налогоплательщика на применение указанной льготы
+											на сумму более 670 млн. руб.</li>
+											<li class="spoiler__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum perferendis non illum, esse quaerat nostrum? Aspernatur dolore nesciunt non iure quae, perferendis blanditiis mollitia nostrum fugit perspiciatis hic nobis!</li>
+										</div>
+										<button hidden data-showmore-button type="button" class="spoiler__more"><span>Смотреть ещё</span><span>Скрыть</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span class="spollers__number">02 </span>Разрешение споров и арбитраж</button>
 								<div class="spollers__body">Контент спойлера</div>
 							</div>
 							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Разрешение споров и арбитраж</button>
+								<button type="button" data-spoller class="spollers__title"><span class="spollers__number">03 </span>Энергетическая практика</button>
 								<div class="spollers__body">Контент спойлера</div>
 							</div>
 							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Энергетическая практика</button>
+								<button type="button" data-spoller class="spollers__title"><span class="spollers__number">04 </span>Международная практика</button>
 								<div class="spollers__body">Контент спойлера</div>
 							</div>
 							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Международная практика</button>
+								<button type="button" data-spoller class="spollers__title"><span class="spollers__number">05 </span>Недвижимость и строительство</button>
 								<div class="spollers__body">Контент спойлера</div>
 							</div>
 							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Недвижимость и строительство</button>
-								<div class="spollers__body">Контент спойлера</div>
-							</div>
-							<div class="spollers__item">
-								<button type="button" data-spoller class="spollers__title">Банкротство</button>
+								<button type="button" data-spoller class="spollers__title"><span class="spollers__number">06 </span>Банкротство</button>
 								<div class="spollers__body">Контент спойлера</div>
 							</div>
 						</div>
@@ -191,6 +208,23 @@
 					</div>
 				</div>
 				<div class="feedback">
+					<div class="feedback__container">
+						<div class="feedback__header">Специалисты компании НАФКО готовы ответить на интересующие вас вопросы</div>
+						<form data-dev method="POST" class="feedback__form form" action="sendmail.php">
+							<div class="form__input"><input autocomplete="off" data-required type="text" name="Name[]" data-error="Заполните имя" placeholder="Ваше Имя" class="form__inp input"></div>
+							<div class="form__input"><input autocomplete="off" data-required type="text" name="email[]" data-error="Заполните email" placeholder="Ваш e-mail" class="form__inp input"></div>
+							<div class="form__input"><input autocomplete="off" data-required type="text" name="Tel[]" data-error="Заполните телефон" placeholder="Телефон" class="form__inp input"></div>
+							<div class="form__textarea"><textarea autocomplete="off" data-required name="Description[]" placeholder="Заполните описание вопроса" data-error="Ошибка"
+								class="form__txtarea input"></textarea></div>
+							<div class="form__flex">
+								<div class="form__button"><button type="submit">Отправить запрос</button></div>
+								<div class="checkbox">
+									<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="Personaldata[]">
+									<label for="c_1" class="checkbox__label"><span class="checkbox__text">Я даю согласие на обработку моих персональных данных</span></label>
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
 			</main>
 			@@include('html/_footer.htm',{})

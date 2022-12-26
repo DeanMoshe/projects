@@ -15,9 +15,9 @@
 	width: 100%;
 	cursor: default;
 	text-align: left;
-	border: 1px solid #eee;
-	padding: rem(10) rem(15);
-	border-radius: rem(5);
+	border-bottom: 1px solid #7E7E7E;
+	padding: rem(10) rem(0);
+	border-radius: rem(0);
 	position: relative;
 	._spoller-init & {
 		cursor: pointer;
@@ -39,6 +39,7 @@
 			transform: translate(0, -50%) rotate(-40deg);
 		}
 		&._spoller-active {
+			border: none;
 			&::before {
 				transform: translateX(-75%) rotate(-40deg);
 			}
@@ -51,6 +52,6 @@
 // Контент спойлера
 .spollers__body {
 	padding: rem(20);
-	border-radius: rem(5);
-	border: 1px solid #eee;
+	border-radius: rem(0);
+	border: none;
 }
