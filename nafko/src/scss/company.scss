@@ -1,0 +1,135 @@
+.page {}
+
+.team {
+
+	// .team__container
+
+	&__container {}
+}
+
+.breadcrumbs {
+	padding: 16px 0 0 0;
+
+	&__divider:last-child,
+	&__link:last-child {
+		color: #09283A;
+	}
+
+	&__divider,
+	&__link {
+		font-family: 'Ubuntu';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+		color: #797979;
+	}
+
+	// .breadcrumb__divider
+
+	&__divider {}
+
+	// .breadcrumbs__link
+
+	&__link {}
+}
+
+.description {
+	padding: 40px 0 0 0;
+	font-family: 'Roboto';
+	font-style: normal;
+
+	// .description__title
+
+	&__title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 42px;
+		color: #09283A;
+	}
+
+	// .description__text
+
+	&__text {
+		padding: 28px 0 0 0;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 119.19%;
+		color: #09283A;
+	}
+}
+
+.title {}
+
+.text {}
+
+.management {
+	padding: 80px 0 0 0;
+	font-family: 'Roboto';
+	font-style: normal;
+
+	// .management__title
+
+	&__title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 42px;
+		color: #09283A;
+	}
+
+	// .management__section
+
+	&__section {}
+
+	// .management__photosection
+
+	&__photosection {}
+
+	// .management__photo
+
+	&__photo {}
+
+	// .management__img
+
+	&__img {}
+
+	// .management__name
+
+	&__name {}
+
+	// .management__vcard
+
+	&__vcard {}
+
+	// .management__button
+
+	&__button {}
+
+	// .management__description
+
+	&__description {}
+}
+
+.title {}
+
+.description {
+
+	// .description__title
+
+	&__title {}
+
+	// .description__text-orange
+
+	&__text-orange {}
+
+	// .description__text
+
+	&__text {}
+}
+
+.descriptiont {
+
+	// .descriptiont__text-orange
+
+	&__text-orange {}
+}
