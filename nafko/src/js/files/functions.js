@@ -23,6 +23,17 @@ export let isMobile = { Android: function () { return navigator.userAgent.match(
 export function addTouchClass() {
 	// Добавление класса _touch для HTML если браузер мобильный
 	if (isMobile.any()) document.documentElement.classList.add('touch');
+
+	//Добавление класса _active для .menu__arrow если браузер мобильный
+	let menuArrows = document.querySelectorAll('.menu__arrow');
+	if (menuArrows.length > 0) {
+		for (let index = 0; index < menuArrows.length; index++) {
+			const menuArrow = menuArrows[index];
+			menuArrow.addEventListener("click", function (e) {
+				menuArrow.parentElement.classList.toggle('_active');
+			});
+		}
+	}
 }
 // Добавление loaded для HTML после полной загрузки страницы
 export function addLoadedClass() {
