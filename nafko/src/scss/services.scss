@@ -149,9 +149,26 @@
 
 	&__services {}
 
+	// .taxes__showall
+	
+	&__showall {
+		line-height: 33px;
+		margin-top: 0;
+		margin-right: 0;
+		width: 389px;
+		height: 33px;
+		background: #F4F4F4;
+		border: 1px solid #797979;
+		box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.25);
+		align-items: center;
+		color: #797979;
+	}
+
 	// .taxes__projectexp
 
-	&__projectexp {}
+	&__projectexp {
+		padding: 80px 0 0 0;
+	}
 }
 
 .taxes-tabs {
@@ -163,7 +180,7 @@
 	// .taxes-tabs__title
 
 	&__title {
-		padding: 28px 36px 40px 0;
+		padding: 28px 36px 0px 0;
 		max-width: 200px;
 		text-align: left;
 		font-weight: 500;
@@ -191,7 +208,9 @@
 
 	// .taxes-tabs__body
 
-	&__body {}
+	&__body {
+		padding: 40px 0 0 0;
+	}
 }
 
 // ._tab-active
@@ -203,7 +222,7 @@
 	// ._tab-active__text
 
 	&__text {
-		padding: 0 0 15px 0;
+		padding: 15px 0 0 0;
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 119.2%;
@@ -213,7 +232,7 @@
 	// ._tab-active__title
 
 	&__title {
-		padding: 0 0 15px 0;
+		padding: 15px 0 0 0;
 		font-weight: 500;
 		font-size: 20px;
 		line-height: 119.19%;
@@ -231,8 +250,8 @@
 		& li {
 			list-style: inside;
 
-			&:last-child {
-				padding: 0 0 15px 0;
+			&:first-child {
+				padding: 15px 0 0 0;
 			}
 		}
 	}
@@ -242,9 +261,215 @@
 
 	// .taxes-showmore__content
 
-	&__content {}
+	&__content {
+		list-style-type: none;
+		padding: 20px 0 20px 0;
+		border-bottom: 1px solid #DDDDDD;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+	
+		color: #09283A;
+	}
 
 	// .taxes-showmore__more
 
+	&__more {
+		padding: 20px 0 0 0;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		text-decoration-line: underline;
+		color: #EEAC49;
+	}
+}
+
+.taxes {
+
+	// .taxes__clients
+
+	&__clients {}
+
+	// .taxes__title
+
+	&__title {}
+
+	// .taxes__clients-logo
+
+	&__clients-logo {
+		margin: 32px 0 80px 0;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		max-height: 105px;
+	}
+
+	// .taxes__clients-img
+
+	&__clients-img {
+		max-height: 105px;
+	}
+}
+
+//============================================================================================
+
+// disputes.html
+
+.dispute {
+
+	// .dispute__container
+
+	&__container {}
+
+	// .dispute__textsection
+
+	&__textsection {
+		padding: 40px 0 40px 0;
+	}
+
+	// .dispute__title
+
+	&__title {}
+
+	// .dispute__text-orange
+
+	&__text-orange {}
+
+	// .dispute__text
+
+	&__text {}
+
+	// .dispute__services
+
+	&__services {
+		padding: 40px 0 0 0;
+	}
+
+	// .dispute__tabs
+
+	&__tabs {}
+
+	// .dispute__projectexp
+
+	&__projectexp {}
+
+	// .dispute__showall
+
+	&__showall {}
+
+	// .dispute__clients
+
+	&__clients {}
+
+	// .dispute__clients-logo
+
+	&__clients-logo {}
+
+	// .dispute__clients-img
+
+	&__clients-img {}
+}
+
+.dispute-tabs {
+
+	// .dispute-tabs__navigation
+
+	&__navigation {}
+
+	// .dispute-tabs__title
+
+	&__title {}
+
+	// .dispute-tabs__content
+
+	&__content {}
+
+	// .dispute-tabs__body
+
+	&__body {
+		padding: 40px 0 0 0;
+	}
+}
+
+._tab-active {
+
+	// ._tab-active__text
+
+	&__text {}
+
+	// ._tab-active__title
+
+	&__title {}
+
+	// ._tab-active__list
+
+	&__list {}
+}
+
+.dispute-showmore {
+
+	// .dispute-showmore__content
+
+	&__content {}
+
+	// .dispute-showmore__more
+
 	&__more {}
 }
+
+//======================================================================================
+
+// due_diligence.html
+
+.due-diligence {
+
+	// .due-diligence__container
+
+	&__container {}
+
+	// .due-diligence__textsection
+
+	&__textsection {}
+
+	// .due-diligence__title
+
+	&__title {
+
+	}
+
+	// .due-diligence__subtitle
+
+	&__subtitle {
+		padding: 20px 0 20px 0;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 119.19%;
+		color: #09283A;
+	}
+
+	// .due-diligence__text
+
+	&__text {
+		padding: 20px 0 0 0;
+	}
+
+	// .due-diligence__list
+
+	&__list {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 119.19%;
+		color: #09283A;
+
+		// .due-diligence__list li
+
+		& li {
+			list-style: inside;
+		}
+	}
+
+	// .due-diligence__services
+
+	&__services {}
+}
+
