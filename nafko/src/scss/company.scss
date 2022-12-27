@@ -407,3 +407,51 @@
 .title {}
 
 .text {}
+
+//=========================================================================================================
+
+// publications.html
+
+.publications {
+
+	// .publications__container
+
+	&__container {}
+
+	// .publications__title
+
+	&__title {}
+
+	// .publications__block
+
+	&__block {
+		height: auto !important;
+	}
+
+	// .publications__text
+
+	&__text {
+		padding: 0 40px 8px 40px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 140%;
+		color: #595959;
+	}
+
+	// .publications__date
+
+	&__date {
+		padding: 0 40px 8px 40px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 140%;	
+		color: #595959;
+	}
+
+	// .publications__detail
+
+	&__detail {
+		padding-bottom: 40px !important;
+	}
+}
+
