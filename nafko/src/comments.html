@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="comments__container">
+				<div class="breadcrumbs"><a href="#" class="breadcrumbs__link">Главная </a><span
+						class="breadcrumbs__divider">/</span><a href="#" class="breadcrumbs__link"> Новости </a><span
+						class="breadcrumbs__divider">/</span<a href="#" class="breadcrumbs__link"> Комментарии экспертов</a></div>
+				<div class="comments">
+					<div class="comments__title news__title title">Комментарии экспертов</div>
+						<div class="comments__block newsblock__news">
+							<div class="commentsblock__title newsblock__title title">Что нас ждёт в октябре</div>
+							<div class="commentsblock__date newsblock__date date">21.12.2021</div>
+							<div class="commentsblock__detail newsblock__detail"><a href="#" class="newsblock__link">Смотреть подробнее</a><img src="@img/latestnews_more_linkarrow.svg" alt="arrow" class="newsblock__arrow"></div>
+						</div>
+						<div class="comments__block newsblock__news">
+							<div class="commentsblock__title newsblock__title title">Бронь на выдумку хитра. Комментарий Павла Иккерта, партнера «Нафко-консультанты», для «Коммерсант»</div>
+							<div class="commentsblock__date newsblock__date date">21.12.2021</div>
+							<div class="commentsblock__detail newsblock__detail"><a href="#" class="newsblock__link">Смотреть подробнее</a><img
+									src="@img/latestnews_more_linkarrow.svg" alt="arrow" class="newsblock__arrow"></div>
+						</div>
+						<div class="comments__block newsblock__news">
+							<div class="commentsblock__title newsblock__title title">Банки зафиксировали высокую долю неудачных переводов в Сбербанк через СБП многие клиенты просто не знают, как подключить
+							такие платежи. Комментарий Павла Иккерта, партнера «Нафко-консультанты», для «РБК»</div>
+							<div class="commentsblock__date newsblock__date date">21.12.2021</div>
+							<div class="commentsblock__detail newsblock__detail"><a href="#" class="newsblock__link">Смотреть подробнее</a><img
+									src="@img/latestnews_more_linkarrow.svg" alt="arrow" class="newsblock__arrow"></div>
+						</div>
+						<div class="comments__block newsblock__news">
+							<div class="commentsblock__title newsblock__title title">«Моршанскхиммаш» поведут через банкротство. Комментарий Павла Иккерта, партнера «Нафко-консультанты», для «Коммерсант»</div>
+							<div class="commentsblock__date newsblock__date date">21.12.2021</div>
+							<div class="commentsblock__detail newsblock__detail"><a href="#" class="newsblock__link">Смотреть подробнее</a><img
+									src="@img/latestnews_more_linkarrow.svg" alt="arrow" class="newsblock__arrow"></div>
+						</div>
+						<div class="comments__block newsblock__news">
+							<div class="commentsblock__title newsblock__title title">«Самый жесткий пакет санкций». Комментарий Павла Иккерта, партнера «Нафко-консультанты», для «Эксперт-ONLINE»</div>
+							<div class="commentsblock__date newsblock__date date">21.12.2021</div>
+							<div class="commentsblock__detail newsblock__detail"><a href="#" class="newsblock__link">Смотреть подробнее</a><img
+									src="@img/latestnews_more_linkarrow.svg" alt="arrow" class="newsblock__arrow"></div>
+						</div>
+						<div class="comments__block newsblock__news">
+							<div class="commentsblock__title newsblock__title title">«Акадо» вышла из-под американских санкций. Комментарий Павла Иккерта, партнера «Нафко», для «Ведомости»</div>
+							<div class="commentsblock__date newsblock__date date">21.12.2021</div>
+							<div class="commentsblock__detail newsblock__detail"><a href="#" class="newsblock__link">Смотреть подробнее</a><img
+									src="@img/latestnews_more_linkarrow.svg" alt="arrow" class="newsblock__arrow"></div>
+						</div>
+						<div class="comments__block newsblock__news">
+							<div class="commentsblock__title newsblock__title title">Коллекторы предложили новый механизм урегулирования жалоб должников. Комментарий Павла Иккерта, партнера
+							«Нафко-консультанты» для «РБК»</div>
+							<div class="commentsblock__date newsblock__date date">21.12.2021</div>
+							<div class="commentsblock__detail newsblock__detail"><a href="#" class="newsblock__link">Смотреть подробнее</a><img
+									src="@img/latestnews_more_linkarrow.svg" alt="arrow" class="newsblock__arrow"></div>
+						</div>
+					<button type="button" class="newsblock__showall showall_btn">Смотреть все новости</button>
+				</div>
+			</div>
+		</main>
+	@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>

@@ -210,3 +210,49 @@
 	}
 }
 
+//=========================================================================
+
+// comments.html
+
+.comments {
+
+	// .comments__container
+
+	&__container {}
+
+	// .comments__title
+
+	&__title {}
+
+	// .comments__block
+
+	&__block {
+		margin: 28px 0 0 0;
+		width: auto;
+	}
+}
+
+.news {
+
+	// .news__title
+
+	&__title {}
+}
+
+.title {}
+
+
+.comments {
+
+	// .commentsnews__title
+
+	&__title {}
+
+	// .commentsnews__date
+
+	&__date {}
+
+	// .commentsnews__detail
+
+	&__detail {}
+}
