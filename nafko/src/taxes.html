@@ -7,7 +7,7 @@
 <body>
 	<div class="wrapper">
 		@@include('html/_header.htm',{})
-		<main class="page">
+		<div class="page">
 			<div class="taxes__container">
 				<div class="breadcrumbs">
 					<a href="index.html" class="breadcrumbs__link">Главная </a>
@@ -17,19 +17,82 @@
 					<a href="#" class="breadcrumbs__link"> Налоговый консалтинг</a>
 				</div>
 				<div class="taxes">
-					<div class="taxes__title title">Налоговый консалтинг</div>
-					<div class="taxes__text-orange text-orange">Налоговый консалтинг является ключевым направлением деятельности юридической компании «НАФКО»
-					с момента ее основания.</div>
-					<div class="taxes__text text">Грамотная и своевременная защита нарушенных прав и законных интересов организации в сфере налогообложения является
-					крайне важной мерой, поскольку прямо влияет на развитие, а в ряде случаев и на возможность продолжения бизнеса.</div>
-					<div class="taxes__text text">Налоговый консалтинг компании «НАФКО» способствует развитию бизнеса клиентов за счет освоения налоговых
-					резервов/истребования из бюджета излишне уплаченных налогов, защиты нарушенных прав налогоплательщиков, способствует
-					грамотному выстраиванию отношений налогоплательщиков с фискальными органами.</div>
-					<div class="taxes__text text">Преимущества налогового консалтинга - его высокопрофессиональная, ответственная, ориентированная на результат и
-					обладающая огромным опытом команда специалистов</div>
-					<button type="button" class="newsblock__showall showall_btn">Смотреть все новости</button>
+					<div class="taxes__flex flex"></div>
+						<div class="taxes__flexbox">
+							<div class="taxes__title title">Налоговый консалтинг</div>
+							<div class="taxes__text-orange text-orange">Налоговый консалтинг является ключевым направлением деятельности юридической
+								компании «НАФКО»
+								с момента ее основания.</div>
+							<div class="taxes__text text">Грамотная и своевременная защита нарушенных прав и законных интересов организации в сфере
+								налогообложения является
+								крайне важной мерой, поскольку прямо влияет на развитие, а в ряде случаев и на возможность продолжения бизнеса.
+							</div>
+							<div class="taxes__text text">Налоговый консалтинг компании «НАФКО» способствует развитию бизнеса клиентов за счет
+								освоения налоговых
+								резервов/истребования из бюджета излишне уплаченных налогов, защиты нарушенных прав налогоплательщиков, способствует
+								грамотному выстраиванию отношений налогоплательщиков с фискальными органами.</div>
+							<div class="taxes__text text">Преимущества налогового консалтинга - его высокопрофессиональная, ответственная,
+								ориентированная на результат и
+								обладающая огромным опытом команда специалистов</div>
+						</div>
+						<div class="taxes__flexbox">
+							<div class="taxes__photosection management__photosection">
+								<div class="taxes__photo management__photo">
+									<img src="@img/company/gorohova.jpg" alt="photo" class="taxes__img management__img">
+									<div class="taxes__about management__about">
+										<div class="about__position">Генеральный директор</div>
+										<div class="about__name">Екатерина Горохова</div>
+									</div>
+									<div class="taxes__vcard management__vcard"><button type="button" class="taxes__button management__button">Скачать v-card</button></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+			<div class="taxes__monitor">
+				<div class="taxes__subtitle">Презентация «Налоговый мониторинг»</div>
+				<div class="taxes__download"><a href="#" class="taxes__link">Скачать</a></div>
+			</div>
+			<div class="taxes__container">
+				<div class="taxes__services">
+					<div class="taxes__title">Услуги</div>
+					<div data-tabs class="taxes-tabs">
+						<nav data-tabs-titles class="taxes-tabs__navigation">
+							<button type="button" class="taxes-tabs__title _tab-active">Таб №1</button>
+							<button type="button" class="taxes-tabs__title">Таб №2</button>
+							<button type="button" class="taxes-tabs__title">Таб №3</button>
+						</nav>
+						<div data-tabs-body class="taxes-tabs__content">
+							<div class="taxes-tabs__body">
+								Содержимое первого таба
+							</div>
+							<div class="taxes-tabs__body">
+								Содержимое второго таба
+							</div>
+							<div class="taxes-tabs__body">
+								Содержимое третьего таба
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="taxes__projectexp">
+					<div class="taxes__title title">Проектный опыт</div>
+					<div data-showmore class="taxes-showmore">
+						<div data-showmore-content class="taxes-showmore__content">Представление интересов энергосбытовой компании при обжаловании в судебном порядке результатов камеральной налоговой
+						проверки. Результатом реализации проекта стало признание доначислений налогового органа незаконными в полном объеме.</div>
+						<div data-showmore-content class="taxes-showmore__content">Представление интересов ПАО «Мосэнергосбыт» при обжаловании в судебном порядке результатов выездной налоговой проверки.
+						В рамках данного спора впервые рассматривались претензии налогового органа к компании, финансирующей деятельность фондов
+						НИОКР, об учете для целей налогообложения прибыли такого рода расходов.</div>
+						<div data-showmore-content class="taxes-showmore__content">Участие в реализации проекта по выявлению у энергетической компании налоговых резервов по налогу на имущество (п. 11 ст.
+						381 НК РФ), в рамках которого подтверждено право налогоплательщика на применение указанной льготы на сумму более 670
+						млн. руб.</div>
+						<div data-showmore-content class="taxes-showmore__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nihil quia ipsam cum. Reprehenderit alias blanditiis laborum, expedita consequatur repellat nam dignissimos placeat accusamus culpa illo eligendi tempore facere ex.</div>
+						<button hidden data-showmore-button type="button" class="taxes-showmore__more"><span>Смотреть еще</span><span>Скыть</span></button>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="newsblock__showall showall_btn">Весь проектный опыт в рамках практики</button>
 		</main>
 		@@include('html/_footer.htm',{})
 	</div>
