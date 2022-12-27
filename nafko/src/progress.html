@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="progress__container">
+				<div class="breadcrumbs"><a href="#" class="breadcrumbs__link">Главная </a><span
+						class="breadcrumbs__divider">/</span><a href="#" class="breadcrumbs__link"> Компания </a><span
+						class="breadcrumbs__divider">/</span<a href="#" class="breadcrumbs__link"> Достижения</a>
+				</div>
+				<div class="progress">
+					<div class="progress__title title">Достижения</div>
+					<div data-showmore="" class="progress-section">
+						<div data-showmore-content class="progress-section__content">
+							<div class="progress__logo"><img src="@img/company/best2020.svg" alt="best2020" class="progress__img"></div>
+							<div class="progress__text text">Компания «НАФКО» отмечена как приоритетная при сотрудничестве и рекомендована к программе <b>«Лучшее предприятие отрасли
+							2020»</b></div>
+						</div>
+						<div data-showmore-content class="progress-section__content">
+							<div class="progress__logo"><img src="@img/company/white.svg" alt="white" class="progress__img"></div>
+							<div class="progress__text text">Компания «НАФКО» заняла 36 место в рейтинге 100 лучших юридических компании Росси, по версии делового интернет-журнала
+							<b>White Square Journal</b></div>
+						</div>
+						<div data-showmore-content class="progress-section__content">
+							<div class="progress__logo"><img src="@img/company/europe.svg" alt="europe" class="progress__img"></div>
+							<div class="progress__text text">Юридическая фирма «НАФКО» вновь отмечена <b>Chambers and Partners Europe 2020</b> в категории Energy & Natural Resources</div>
+						</div>
+						<div data-showmore-content class="progress-section__content">
+							<div class="progress__logo"><img src="@img/company/europe.svg" alt="europe" class="progress__img"></div>
+							<div class="progress__text text">Юридическая компания ,,НАФКО,, отмечена международным рейтингом <b>Chambers Europe 2019</b>, раздел Energy & Natural Resources</div>
+						</div>
+						<div data-showmore-content class="progress-section__content">
+							<div class="progress__logo"><img src="@img/company/europe.svg" alt="europe" class="progress__img"></div>
+							<div class="progress__text text">По результатам международного рейтинга <b>Chambers Europe 2018</b> юридическая компания «НАФКО» рекомендована в разделе Energy
+							& Natural Resources. В 2017 году компания была отмечена в разделе «Разрешение споров»
+							(Dispute Resolution: Domestic).</div>
+						</div>
+						<button hidden data-showmore-button type="button" class="progress-section__more"><span>Смотреть все достижения</span><span>Скыть</span></button>
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>

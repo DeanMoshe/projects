@@ -1,3 +1,7 @@
+//========================================================================================
+
+// team.html
+
 .page {}
 
 .team {
@@ -42,6 +46,7 @@
 	// .description__title
 
 	&__title {
+		padding: 10px 0 20px 0;
 		font-weight: 700;
 		font-size: 36px;
 		line-height: 42px;
@@ -51,12 +56,21 @@
 	// .description__text
 
 	&__text {
-		padding: 28px 0 0 0;
+		padding: 0 0 8px 0;
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 119.19%;
 		color: #09283A;
+
+		& li,
+		& span {
+			padding: 0 0 8px 0;
+		}
 	}
+
+		// .description__text-orange
+
+		&__text-orange {}
 }
 
 .title {}
@@ -64,7 +78,7 @@
 .text {}
 
 .management {
-	padding: 80px 0 0 0;
+	padding: 80px 0 80px 0;
 	font-family: 'Roboto';
 	font-style: normal;
 
@@ -79,7 +93,11 @@
 
 	// .management__section
 
-	&__section {}
+	&__section {
+		padding: 28px 0 0 0;
+		display: flex;
+		justify-content: space-between;
+	}
 
 	// .management__photosection
 
@@ -87,27 +105,85 @@
 
 	// .management__photo
 
-	&__photo {}
+	&__photo {
+		position: relative;
+		width: 350px;
+		height: 475px;
+	}
 
 	// .management__img
 
-	&__img {}
+	&__img {
+		width: 297px;
+		height: 444.12px;
+	}
 
-	// .management__name
+	// .management__about
 
-	&__name {}
+	&__about {
+		width: 338px;
+		height: 66px;
+		background-image: url(@img/company/mng_photo_bg.png);
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
 
 	// .management__vcard
 
-	&__vcard {}
+	&__vcard {
+		margin: 50px 0 0 0;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		color: #797979;
+	}
 
 	// .management__button
 
-	&__button {}
+	&__button {
+		width: 350px;
+		height: 45px;
+		background: #F4F4F4;
+		border: 1px solid #797979;
+		box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.25);
+	}
 
 	// .management__description
 
-	&__description {}
+	&__description {
+		max-width: 730px;
+	}
+}
+
+.about {
+	// .about__position
+
+	&__position {
+		padding: 9px 0 0 21px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		color: #FFFFFF;
+	}
+
+	// .about__name
+
+	&__name {
+		padding: 5px 0 0 21px;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 23px;
+		color: #FFFFFF;
+	}
+}				
+
+.text-orange {
+	padding: 20px 0 15px 0;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 119.19%;
+	color: #FF9F4F;
 }
 
 .title {}
@@ -116,15 +192,26 @@
 
 	// .description__title
 
-	&__title {}
+	&__title {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+		color: #09283A;
+	}
 
 	// .description__text-orange
 
-	&__text-orange {}
+	&__text-orange {
+	}
 
 	// .description__text
 
-	&__text {}
+	&__text {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 119.19%;
+		color: #09283A;
+	}
 }
 
 .descriptiont {
@@ -133,3 +220,190 @@
 
 	&__text-orange {}
 }
+
+//========================================================================================
+
+// materials.html
+
+.materials {
+	margin: 40px 0 40px 0;
+	// .materials__container
+
+	&__container {}
+
+	// .materials__title
+
+	&__title {
+		margin: 0 0 40px 0;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 42px;
+		color: #09283A;
+	}
+
+	// .materials__bg
+
+	&__bg {
+		margin: 0 0 40px 0;
+		background-image: url(@img/company/materials_bg.svg);
+		height: 188px;
+	}
+
+	// .materials__subtitle
+
+	&__subtitle {
+		padding: 41px 0 15px 0;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 38px;
+		color: #09283A;
+	}
+
+	// .materials__link
+
+	&__link {
+		padding: 0 0 0 95px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 23px;
+		text-decoration-line: underline;
+		color: #09283A;}
+}
+
+.breadcrumbs {
+
+	// .breadcrumbs__link
+
+	&__link {}
+
+	// .breadcrumbs__divider
+
+	&__divider {}
+}
+
+.title {}
+
+
+//========================================================================================
+
+// progress.html
+
+.progress {
+	padding: 40px 0 80px 0;
+
+	// .progress__container
+
+	&__container {}
+
+	// .progress__title
+
+	&__title {}
+
+	// .progress__logo
+
+	&__logo {}
+
+	// .progress__img
+
+	&__img {
+		max-width: 255px;
+		max-height: 255px;
+	}
+
+	// .progress__text
+
+	&__text {
+		width: 824px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+		color: #09283A;
+	}
+}
+
+.breadcrumbs {
+
+	// .breadcrumbs__link
+
+	&__link {}
+
+	// .breadcrumbs__divider
+
+	&__divider {}
+}
+
+.title {}
+
+.progress-section {
+
+	// .progress-section__content
+
+	&__content {
+		height: 255px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	// .progress-section__more
+
+	&__more {
+		display: block;
+		margin: 0 auto;
+		padding: 16px 54px;
+		gap: 10px;
+		width: 334px;
+		height: 54px;
+		background: #EEAC49;
+	}
+}
+
+.text {}
+
+//================================================================================
+
+// career.html
+
+.career {
+
+	// .career__container
+
+	&__container {
+		padding: 0 0 80px 0cd;
+	}
+
+	// .career__title
+
+	&__title {
+		padding: 40px 0 0 0;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 42px;
+		color: #09283A;
+	}
+
+	// .career__text
+
+	&__text {
+		padding: 28px 0 0 0;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 119.19%;
+		color: #09283A;
+	}
+}
+
+.breadcrumbs {
+
+	// .breadcrumbs__link
+
+	&__link {}
+
+	// .breadcrumbs__divider
+
+	&__divider {}
+}
+
+.title {}
+
+.text {}

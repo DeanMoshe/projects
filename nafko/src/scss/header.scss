@@ -262,13 +262,18 @@
 
 		& li {
 			flex-wrap: wrap;
-			margin: 0 0 10px 20px;
+
+			@media (max-width:$tablet) {
+				margin: 0 0 10px 20px;
+			}
 		}
 
 		//.menu__sub-list li:last-child
 
 		& li:last-child {
-			margin: 0 0 0 20px;
+			@media (max-width:$tablet) {
+				margin: 0 0 0 20px;
+			}
 		}
 	}
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="team__container">
+				<div class="breadcrumbs"><a href="#" class="breadcrumbs__link">Главная </a><span
+						class="breadcrumbs__divider">/</span><a href="#" class="breadcrumbs__link"> Компания </a><span
+						class="breadcrumbs__divider">/</span<a href="#" class="breadcrumbs__link"> Команда</a></div>
+				<div class="description">
+					<div class="description__title title">Команда</div>
+					<div class="description__text text">За годы работы юридическая компания «НАФКО» объединила команду
+						высококвалифицированных специалистов в различных
+						отраслях права и экономики, в том числе в области налогового и финансового консалтинга,
+						коммерческого права, судебного
+						представительства, что позволяет оперативно оказывать помощь нашим клиентам в решении сложных
+						методологических и
+						коллизионных проблем современного законодательства, а также споров, носящих коммерческий и
+						публичный характер.
+						<br>
+						<br>
+						Консультанты обладают не только глубокими знаниями в соответствующих областях законодательства и
+						судебной практики, но и
+						ценным опытом их применения, накопленными за время работы в налоговых органах, судах различных
+						инстанций, ведущих
+						иностранных и российских компаниях, в том числе и консалтинговых, а также в качестве третейских
+						судей.
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
