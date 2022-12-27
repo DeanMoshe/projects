@@ -98,14 +98,23 @@
 	// .newsblock__showall
 
 	&__showall {
-		display: block;
-		margin: 0 auto 80px auto;
-		gap: 10px;
-		width: 299px;
-		height: 54px;
-	
-		background: #EEAC49;
 	}
+}
+
+// .showall_btn
+
+.showall_btn {
+	display: block;
+	margin: 60px auto 80px auto;
+	gap: 10px;
+	width: 299px;
+	height: 54px;
+
+	background: #EEAC49;
+}
+
+.newsblock__arrow {
+	padding: 4px 0 0 6px;
 }
 
 .news {
