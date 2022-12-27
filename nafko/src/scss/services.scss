@@ -1,0 +1,250 @@
+.taxes {
+	padding: 40px 0 0 0;
+
+	// .taxes__container
+
+	&__container {
+	}
+
+	// .taxes__flex
+
+	&__flex {
+		display: flex;
+		flex: 825px 1 1;
+		justify-content: space-between;
+	}
+
+	// .taxes__flexbox
+
+	&__flexbox {
+	}
+
+	// .taxes__textsection
+
+	&__textsection {
+		max-width: 825px;
+	}
+
+	// .taxes__title
+
+	&__title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 42px;
+		color: #09283A;
+	}
+
+	// .taxes__text-orange
+
+	&__text-orange {
+		padding: 32px 0 0 0;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+		color: #FF9F4F;
+	}
+
+	// .taxes__text
+
+	&__text {
+		padding: 20px 0 0 0;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 119.19%;
+		color: #09283A;
+	}
+
+	// .taxes__photosection
+
+	&__photosection {
+	}
+
+	// .taxes__photo
+
+	&__photo {
+		width: 255px;
+		height: 346px;
+	}
+
+	// .taxes__img
+
+	&__img {
+		width: 216px;
+		height: 323px;
+	}
+
+	// .taxes__about
+
+	&__about {
+		width: 246px;
+		height: 48px;
+
+		& > .about__position {
+			padding: 6px 0 0 15px;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+		
+			color: #FFFFFF;
+		}
+
+		& > .about__name {
+			padding:  0 0 1.4px 15px;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 23px;
+
+			color: #FFFFFF;
+		}
+	}
+
+	// .taxes__vcard
+
+	&__vcard {}
+
+	// .taxes__button
+
+	&__button {
+		width: 258px;
+		height: 33px;
+	}
+
+	// .taxes__monitor
+
+	&__monitor {
+		margin: 80px 0 80px 0;
+		width: 1440px;
+		height: 188px;
+		background-image: url(@img/services/taxes_presentation_bg.svg);
+	}
+
+	// .taxes__subtitle
+
+	&__subtitle {
+		padding: 41px 0 0 165px;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 38px;
+		color: #09283A;
+	}
+
+	// .taxes__download
+
+	&__download {}
+
+	// .taxes__link
+
+	&__link {
+		display: inline-block;
+		padding: 15px 0 71px 266px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 23px;
+		text-decoration-line: underline !important;
+	
+		color: #09283A;
+	}
+
+	// .taxes__services
+
+	&__services {}
+
+	// .taxes__projectexp
+
+	&__projectexp {}
+}
+
+.taxes-tabs {
+
+	// .taxes-tabs__navigation
+
+	&__navigation {}
+
+	// .taxes-tabs__title
+
+	&__title {
+		padding: 28px 36px 40px 0;
+		max-width: 200px;
+		text-align: left;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+	
+		color: #09283A;
+
+		&:last-child {
+			padding: 28px 0 40px 0;
+		}
+
+		&._tab-active {
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 19px;
+		
+			color: #FF9F4F;
+		}
+	}
+
+	// .taxes-tabs__content
+
+	&__content {}
+
+	// .taxes-tabs__body
+
+	&__body {}
+}
+
+// ._tab-active
+
+._tab-active {}
+
+._tab-active {
+
+	// ._tab-active__text
+
+	&__text {
+		padding: 0 0 15px 0;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 119.2%;
+		color: #09283A;
+	}
+
+	// ._tab-active__title
+
+	&__title {
+		padding: 0 0 15px 0;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 119.19%;
+		color: #09283A;
+	}
+
+	// ._tab-active__list
+
+	&__list {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 119.2%;
+		color: #09283A;
+
+		& li {
+			list-style: inside;
+
+			&:last-child {
+				padding: 0 0 15px 0;
+			}
+		}
+	}
+}
+
+.taxes-showmore {
+
+	// .taxes-showmore__content
+
+	&__content {}
+
+	// .taxes-showmore__more
+
+	&__more {}
+}
