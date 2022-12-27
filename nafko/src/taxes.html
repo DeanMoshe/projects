@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="taxes__container">
+				<div class="breadcrumbs">
+					<a href="index.html" class="breadcrumbs__link">Главная </a>
+					<span class="breadcrumbs__divider">/</span>
+					<a href="services.html" class="breadcrumbs__link"> Услуги </a>
+					<span class="breadcrumbs__divider">/</span>
+					<a href="#" class="breadcrumbs__link"> Налоговый консалтинг</a>
+				</div>
+				<div class="taxes">
+					<div class="taxes__title title">Налоговый консалтинг</div>
+					<div class="taxes__text-orange text-orange">Налоговый консалтинг является ключевым направлением деятельности юридической компании «НАФКО»
+					с момента ее основания.</div>
+					<div class="taxes__text text">Грамотная и своевременная защита нарушенных прав и законных интересов организации в сфере налогообложения является
+					крайне важной мерой, поскольку прямо влияет на развитие, а в ряде случаев и на возможность продолжения бизнеса.</div>
+					<div class="taxes__text text">Налоговый консалтинг компании «НАФКО» способствует развитию бизнеса клиентов за счет освоения налоговых
+					резервов/истребования из бюджета излишне уплаченных налогов, защиты нарушенных прав налогоплательщиков, способствует
+					грамотному выстраиванию отношений налогоплательщиков с фискальными органами.</div>
+					<div class="taxes__text text">Преимущества налогового консалтинга - его высокопрофессиональная, ответственная, ориентированная на результат и
+					обладающая огромным опытом команда специалистов</div>
+					<button type="button" class="newsblock__showall showall_btn">Смотреть все новости</button>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
