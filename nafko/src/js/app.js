@@ -5,7 +5,7 @@
 Или когда импортирован весь файл,
 например import "files/script.js";
 Неиспользуемый (не вызванный)
-код в итоговый файл не попадает.
+код в итоговый файл не попадает.f
 
 Если мы хотим добавить модуль
 следует его расскоментировать
@@ -46,7 +46,7 @@ flsFunctions.spollers();
 Документация: https://template.fls.guru/template-docs/modul-taby.html
 Сниппет (HTML): tabs
 */
-// flsFunctions.tabs();
+flsFunctions.tabs();
 
 /*
 Модуль "показать еще"
